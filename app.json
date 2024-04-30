@@ -1,0 +1,47 @@
+{
+  "expo": {
+    "name": "Expense-Tracker",
+    "slug": "expense-tracker-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/ic_launcher.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash1.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#000000"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "permissions": [
+        "android.permission.RECORD_AUDIO"
+      ],
+      "package": "com.jishnu_dd.expensetrackerapp"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "The app acccesses your photos to let you"
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "2f647a3c-8030-42b0-b8e6-a9cd42a7eddd"
+      }
+    }
+  }
+}
